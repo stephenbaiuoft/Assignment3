@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- "Mark Favorite", should appear as action button if possible -->
+    <item
+        android:title="Camera"
+        android:id="@+id/camera"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_camera" />
+
+
+    <item
+        android:title="Restore"
+        android:id="@+id/restore"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_restore_black_24dp" />
+
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="android.support.v7.widget.RecyclerView"
+        android:id="@+id/recycler_view" />
+
+
+
+</menu>

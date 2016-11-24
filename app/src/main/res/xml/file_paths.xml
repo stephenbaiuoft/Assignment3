@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    </PreferenceScreen>
+<external-path name="my_images" path="/Users/stephenbai/AndroidStudioProjects/Assignment3/app" />
+</paths>
